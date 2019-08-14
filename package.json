@@ -1,5 +1,5 @@
 {
-  "name": "workcation",
+  "name": "Workcation",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "tailwindcss": "^1.1.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -32,11 +33,6 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
     }
   },
   "browserslist": [
