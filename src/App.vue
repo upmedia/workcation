@@ -4,7 +4,7 @@
     <search-filters/>
 
     <main class="px-4 py-6">
-        <div v-for="i in 4" :class="{ 'mt-8': i > 1 }">
+        <div v-for="i in 4" :class="{ 'mt-8': i > 1 }" :key="i">
           <h3 class="text-gray-900 text-xl">Los Angeles</h3>
           <p class="text-gray-600">Live like satrs in these luxurios Southern California estates.</p>
           <div class="mt-6">
